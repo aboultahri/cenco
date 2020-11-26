@@ -8,14 +8,14 @@ Requerimos python 3.7 o más y [poetry](https://python-poetry.org/).
 Instalación sin [tox](https://python-poetry.org/). Como observación, al ser una prueba las dev dependencies y prod dependencies pueden considerarse una sola.
 
 ```sh
-$ cd cencosud
+$ cd cenco
 $ python3 -m venv .venv
 $ poetry install
 ```
 con tox
 
 ```sh
-$ cd cencosud
+$ cd cenco
 $ tox -e venv
 ```
 ### Variables de entorno
@@ -28,7 +28,7 @@ Se necesitan las variables de entorno `PROJECT_MODE` y `CONNECTION_STRING`. Dich
 Los problemas de la prueba están en un jupyter notebook contenido en la raíz del proyecto.
 
 ```sh
-$ cd cencosud
+$ cd cenco
 $ .venv/bin/activate #linux, windows se activa el virtual env usando.venv\Scripts\activate
 $ jupyter notebook
 
